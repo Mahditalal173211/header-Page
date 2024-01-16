@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap')
+;
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    block-size:auto;
+
+}
+body{
+    background-image: linear-gradient(black,#ff0037);
+
+
+}
+
+header{
+    height: 100vh;
+    overflow: hidden;
+}
+.nav{
+    height: 10vh;   
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 80px;
+}
+ul{
+    text-transform: uppercase;
+    display: flex;
+    color: white;
+    gap: 10px;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+.items{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin: 50px 80px;
+}
+.image{
+
+    overflow: hidden;
+    position: relative;
+    
+}
+h3,h1,p{
+    font-family: "Playfair Display", serif;
+    color: white;
+}
+p{
+    margin-bottom: 50px;
+    font-weight: 50;
+    font-size: 14px;
+    max-width: 600px;
+}
+h3{
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+h1{
+    margin: 13px 0px;
+    font-weight: 2000;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    font-size: 3rem;
+}
+button{
+   
+    padding: 15px 35px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    border-radius: 25px;
+    border: none;
+    border-style: none;
+}
+button:hover{
+    border: solid white 1px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+li:hover{
+    color: rgba(128, 128, 128, 0.493);
+    text-decoration: underline;
+}
+
